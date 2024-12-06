@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nubank Jotap</title>
+</head>
+<style>
+    body{
+        background-color: rgb(116, 32, 194);
+    }
+    div{
+        background-color: white;
+        width: 50%;
+        height: 400px;
+        margin: auto;
+        border-radius: 10px;
+        border: 2px dashed #a39f9f;
+    }
+    h1{
+        font-size: 16px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    .login{
+        width: 60%;
+        height: 0px;
+        color: #a39f9f;
+        margin: auto;
+        border: none;
+    }
+    input{
+        width: 100%;
+        border: none;
+    }
+    button{
+        font-size: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: blueviolet;
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px dashed yellowgreen;
+    }
+    a{
+        color: blueviolet;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        text-decoration: none;
+        display: block;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    button:hover{
+        cursor: pointer;
+        color: white;
+        background-color: blueviolet;
+    }
+</style>
+<body>
+    <main>
+        <img src="imagens/nubank.webp" width="70px" height="70px" alt="">
+    </main>
+    <div class="texto">
+        <h1>Faça seu login</h1>
+        <div class="login">
+            <p>CPF</p>
+            <input type="text" placeholder="Digite seu login">
+            <hr>
+            <p>Senha</p>
+            <input type="password" placeholder="Digite sua senha">
+            <hr>
+            <br>
+            <button>CONTINUAR</button>
+            <a href="#">Esqueci minha senha &gt;</a>
+            <a href="#">Ainda não sou cliente &gt;</a>
+        </div>
+    </div>
+</body>
+</html>
